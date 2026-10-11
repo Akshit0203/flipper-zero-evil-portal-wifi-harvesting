@@ -1,0 +1,23 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# Obsidian vault metadata (this project lives in an Obsidian vault)
+.obsidian/
+.trash/
+
+# Real capture logs — never commit genuine harvested data
+# (only the sanitized sample_log.txt is tracked)
+src/logs/log_*.txt
+!src/logs/sample_log.txt
+*.real.txt
+
+# Archives / firmware binaries
+*.bin
+*.zip
+*.tar.gz
