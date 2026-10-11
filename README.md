@@ -1,9 +1,5 @@
 # Wi-Fi Credential Harvesting via Evil Portal — Flipper Zero + Marauder Firmware
 
-![Credentials harvested via Evil Portal on Flipper Zero](assets/images/09-credentials-harvested.jpg)
-
-> A hands-on **red-team / security-awareness lab** demonstrating how a rogue access point (Evil Twin) paired with a captive-portal phishing page can harvest Wi-Fi and account credentials — built entirely on a Flipper Zero with the ESP32 Wi-Fi Dev Board running Marauder firmware.
-
 ![Platform](https://img.shields.io/badge/Platform-Flipper%20Zero-FF8200)
 ![Firmware](https://img.shields.io/badge/Firmware-Marauder-212121)
 ![Module](https://img.shields.io/badge/Wi--Fi%20Board-ESP32--WROOM-00979D)
@@ -11,6 +7,12 @@
 ![Category](https://img.shields.io/badge/Category-Social%20Engineering-8A2BE2)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Purpose](https://img.shields.io/badge/Use-Educational%20Only-critical)
+
+![Credentials harvested via Evil Portal on Flipper Zero](assets/images/09-credentials-harvested.jpg)
+
+<sub><i>Test credentials captured by the Flipper Zero Evil Portal and written to the SD-card logs — the fake Google login page (left), the Marauder console (right), and the harvested <code>u:</code> / <code>p:</code> entry. Dummy values only; lab demo.</i></sub>
+
+> A hands-on **red-team / security-awareness lab** demonstrating how a rogue access point (Evil Twin) paired with a captive-portal phishing page can harvest Wi-Fi and account credentials — built entirely on a Flipper Zero with the ESP32 Wi-Fi Dev Board running Marauder firmware.
 
 ---
 
